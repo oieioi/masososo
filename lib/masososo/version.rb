@@ -1,3 +1,3 @@
-module Anedepami
+module Masososo
   VERSION = "0.1.0"
 end

@@ -1,16 +1,16 @@
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "anedepami/version"
+require "masososo/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "anedepami"
-  spec.version       = Anedepami::VERSION
+  spec.name          = "masososo"
+  spec.version       = Masososo::VERSION
   spec.authors       = ["oieioi"]
   spec.email         = ["atsuinatsu.samuifuyu@gmail.com"]
 
   spec.summary       = %q{Return similar katakana for example ソ and ン and リ}
   spec.description   = %q{Return similar katakana for example ソ and ン and リ}
-  spec.homepage      = "https://github.com/oieioi/anedepami/"
+  spec.homepage      = "https://github.com/oieioi/masososo/"
   spec.license       = "MIT"
 
   # Specify which files should be added to the gem when it is released.

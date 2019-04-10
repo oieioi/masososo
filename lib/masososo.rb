@@ -1,6 +1,6 @@
-require "anedepami/version"
+require "masososo/version"
 
-module Anedepami
+module Masososo
   class Error < StandardError; end
 
   class << self
@@ -75,11 +75,11 @@ end
 
 class String
   def similar_string(opt = {})
-    Anedepami.similar_string(self, opt)
+    Masososo.similar_string(self, opt)
   end
-  alias :anedepami :similar_string
+  alias :masososo :similar_string
 
   def similar_chars(opt = {})
-    Anedepami.similar_chars(self, opt)
+    Masososo.similar_chars(self, opt)
   end
 end

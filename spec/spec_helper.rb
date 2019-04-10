@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "anedepami"
+require "masososo"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
