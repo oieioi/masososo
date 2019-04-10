@@ -2,7 +2,7 @@
 
 # masososo
 
-Return similar characters for example ソ and ン and リ
+Return similar-looking characters for example "ソ", "ン" and "リ".
 
 ## Installation
 
@@ -14,7 +14,7 @@ gem 'masososo'
 
 And then execute:
 
-    $ bundle
+    $ bundle install
 
 Or install it yourself as:
 
@@ -23,8 +23,10 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
-'ﾏﾘﾘﾝ･ﾏﾝｿﾝ'.masososo
-# => "ﾏﾘﾝﾝ･ｱﾝﾝﾝ" or "ｱｿﾝｿ･ﾏﾝﾝﾘ" or "ｱﾘﾘﾝ･ﾏﾘｿﾝ" or ....
+'リンゴを4つとみかんを7つください'.masososo
+# => "ソリゴを4つとみかんをｸつくださソ"
+'リンゴを4つとみかんを7つください'.masososo
+# => "リリゴを4つとゐかんをﾜつくだちい"
 
 ?ｿ.similar_chars
 # => ["ﾘ", "ﾝ"]
