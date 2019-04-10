@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/oieioi/masososo.svg?token=okzT4ciBqpfSUbg7GQfs&branch=master)](https://travis-ci.com/oieioi/masososo)
+
 # masososo
 
 Return similar characters for example ソ and ン and リ
