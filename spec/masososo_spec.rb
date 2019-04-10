@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 RSpec.describe Masososo do
   it "has a version number" do
     expect(Masososo::VERSION).not_to be nil

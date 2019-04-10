@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class String
   # Returns the string replaced similar chars randomly.
   #
@@ -6,7 +8,7 @@ class String
   def similar_string(opt = {})
     Masososo.similar_string(self, opt)
   end
-  alias :masososo :similar_string
+  alias masososo similar_string
 
   # Returns similar chars.
   #

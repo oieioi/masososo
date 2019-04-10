@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Masososo
   module SimilarCharSets
     SIMILAR_CHAR_SETS = [
@@ -28,7 +30,7 @@ module Masososo
       %w[ｽ 7],
       %w[4 ﾑ],
       %w[ﾕ ｺ],
-      %w[ﾞ ﾟ],
-    ].map { |chars| chars.freeze }.freeze
+      %w[ﾞ ﾟ]
+    ].map(&:freeze).freeze
   end
 end
