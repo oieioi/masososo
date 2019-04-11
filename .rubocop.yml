@@ -7,6 +7,10 @@ Style/Documentation:
 Style/ClassVars:
   Enabled: false
 
+Style/FrozenStringLiteralComment:
+  Exclude:
+    - 'exe/**/*'
+
 Style/StringLiterals:
   Enabled: false
 
