@@ -28,10 +28,24 @@ Or install it yourself as:
 'リンゴを4つとみかんを7つください'.masososo
 # => "リリゴを4つとゐかんをﾜつくだちい"
 
+# masososo aliased typo
+'リンゴを4つとみかんを7つください'.typo
+# => "ンソゴをﾑつとゐかんを7つくだちリ"
+
+'リンゴを4つとみかんを7つください'.typo(frequency: 0.2)
+# => "リンゴをﾑつとみかんを7つください"
+
 ?ｿ.similar_chars
 # => ["ﾘ", "ﾝ"]
 ?ｿ.similar_chars(including_self: true)
 # => ["ｿ", "ﾘ", "ﾝ"]
+```
+
+or
+
+```sh
+$ echo ﾘﾝｺﾞｶﾞｵｲｼｲｷｾﾂﾃﾞｽﾈ | masososo
+=> ﾝﾘｺﾟｶﾞｵｲｼｲｷｾﾂﾃﾞ7ﾈ
 ```
 
 ## Contributing
