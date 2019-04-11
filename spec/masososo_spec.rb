@@ -27,9 +27,9 @@ RSpec.describe Masososo do
     end
   end
 
-  describe "String#masososo" do
-    subject { str.masososo(option) }
-    let(:option) { { including_self: false } }
+  describe "String#typo" do
+    subject { str.typo(option) }
+    let(:option) { { frequency: 1 } }
 
     context 'こんにちわ' do
       let(:str) { 'こんにちわ' }

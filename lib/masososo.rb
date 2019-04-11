@@ -18,8 +18,14 @@ module Masososo
       end
     end
 
-    def similar_string(str, including_self: true, **)
-      str.chars.map { |char| similar_chars(char, including_self: including_self).sample }.join('')
+    def similar_string(str, including_self: false, frequency: 0.5, **)
+      str.chars.map do |char|
+        if rand < frequency
+          similar_chars(char, including_self: including_self).sample
+        else
+          char
+        end
+      end.join('')
     end
 
     @@similar_char_index = Indexer.index(SIMILAR_CHAR_SETS, false)
