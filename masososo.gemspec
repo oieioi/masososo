@@ -10,8 +10,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["oieioi"]
   spec.email         = ["atsuinatsu.samuifuyu@gmail.com"]
 
-  spec.summary       = 'Return similar-looking characters for example "ソ", "ン" and "リ".'
-  spec.description   = 'Return similar-looking characters for example "ソ", "ン" and "リ".'
+  spec.summary       = 'Make typo with similar-looking characters such as "ｿ", "ﾝ", "ﾘ".'
+  spec.description   = 'Make typo with similar-looking characters such as "ｿ", "ﾝ", "ﾘ".'
   spec.homepage      = "https://github.com/oieioi/masososo/"
   spec.license       = "MIT"
 

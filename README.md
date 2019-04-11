@@ -2,7 +2,7 @@
 
 # masososo
 
-Return similar-looking characters for example "ソ", "ン" and "リ".
+Make typo with similar-looking characters such as "ｿ", "ﾝ", "ﾘ".
 
 ## Installation
 
