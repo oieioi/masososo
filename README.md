@@ -1,4 +1,4 @@
-[![Gem Version](https://badge.fury.io/rb/masososo.svg)](https://badge.fury.io/rb/masososo) [![Build Status](https://travis-ci.com/oieioi/masososo.svg?token=okzT4ciBqpfSUbg7GQfs&branch=master)](https://travis-ci.com/oieioi/masososo)
+[![Gem Version](https://badge.fury.io/rb/masososo.svg)](https://badge.fury.io/rb/masososo) [![Build Status](https://travis-ci.com/oieioi/masososo.svg?token=okzT4ciBqpfSUbg7GQfs&branch=master)](https://travis-ci.com/oieioi/masososo)[![Coverage Status](https://coveralls.io/repos/github/oieioi/masososo/badge.svg)](https://coveralls.io/github/oieioi/masososo)
 
 # masososo
 
